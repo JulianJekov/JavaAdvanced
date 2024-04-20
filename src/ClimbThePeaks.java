@@ -13,9 +13,20 @@ public class ClimbThePeaks {
                 "Kamenitza", 70));
 
         List conqueredPeaks = new ArrayList<String>();
-        ArrayDeque<Integer> foodPortions = Arrays.stream(scanner.nextLine().split(",\\s+")).map(Integer::parseInt).collect(Collectors.toCollection(ArrayDeque::new));
-        ArrayDeque<Integer> staminaQuan = Arrays.stream(scanner.nextLine().split(",\\s+")).map(Integer::parseInt).collect(Collectors.toCollection(ArrayDeque::new));
+        ArrayDeque<Integer> foodPortions = Arrays
+                .stream(scanner.nextLine()
+                .split(",\\s+"))
+                .map(Integer::parseInt)
+                .collect(Collectors.toCollection(ArrayDeque::new));
+
+        ArrayDeque<Integer> staminaQuan = Arrays
+                .stream(scanner.nextLine()
+                .split(",\\s+"))
+                .map(Integer::parseInt)
+                .collect(Collectors.toCollection(ArrayDeque::new));
+
         System.out.println();
+
         while (!peakAndLevel.isEmpty() && !foodPortions.isEmpty() && !staminaQuan.isEmpty()) {
             String currentPeakName = peaks.getFirst();
             if (foodPortions.getLast() + staminaQuan.getFirst() >= peakAndLevel.get(currentPeakName)) {

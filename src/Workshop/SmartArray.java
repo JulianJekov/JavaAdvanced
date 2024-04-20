@@ -91,7 +91,7 @@ public class SmartArray {
     }
 
     private void checkIndex(int index) {
-        if (index >= this.size || index < 0) {
+        if (index > this.size || index < 0) {
             String errorMessage = String.format("Index %d is out of bounds for our SmartArray", index);
             throw new IndexOutOfBoundsException(errorMessage);
         }

@@ -1,4 +1,4 @@
-package P07to08CustomList;
+package _07_Generics.Exercise.P07to08CustomList;
 
 public class Sorter {
 

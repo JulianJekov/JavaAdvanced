@@ -7,13 +7,21 @@ import java.util.List;
 public class CustomList<T extends Comparable<T>> {
     private List<T> list;
 
-    public CustomList(){
+    public CustomList() {
         this.list = new ArrayList<>();
 
     }
 
-    public void add(T element){
+    public void add(T element) {
         list.add(element);
+    }
+
+    public int size() {
+        return list.size();
+    }
+
+    public T get(int index) {
+        return list.get(index);
     }
 
     public void remove(int indexToRemove) {
@@ -25,17 +33,20 @@ public class CustomList<T extends Comparable<T>> {
     }
 
     public void swap(int firstIndex, int secondIndex) {
-        Collections.swap(list,firstIndex,secondIndex);
+        Collections.swap(list, firstIndex, secondIndex);
     }
-    public int countGreaterThan(T element){
+
+    public int countGreaterThan(T element) {
         return (int) list.stream()
-                .filter(existingElement->existingElement.compareTo(element) > 0)
+                .filter(existingElement -> existingElement.compareTo(element) > 0)
                 .count();
     }
-    public T getMax(){
+
+    public T getMax() {
         return list.stream().max(Comparable::compareTo).get();
     }
-    public T getMin(){
+
+    public T getMin() {
         return list.stream().min(Comparable::compareTo).get();
     }
 

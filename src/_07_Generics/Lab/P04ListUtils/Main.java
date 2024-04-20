@@ -12,7 +12,7 @@ public class Main {
         list.add(150);
         list.add(-150);
 
-        System.out.println(ListUtils.getMax(new ArrayList<Integer>()));
+//        System.out.println(ListUtils.getMax(new ArrayList<Integer>()));
         System.out.println(ListUtils.getMin(list));
     }
 }

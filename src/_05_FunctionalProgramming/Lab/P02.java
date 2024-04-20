@@ -15,8 +15,8 @@ public class P02 {
 //        int sum = Arrays.stream(input).mapToInt(Integer::parseInt).sum();
 //        System.out.println("Sum = " + sum);
 
-        Function<int[],String > count = elements -> "Count = " +  Arrays.stream(elements).count();
-        Function<int[],String> sum = elements -> "Sum = " + Arrays.stream(elements).sum();
+        Function<int[], String> count = elements -> "Count = " + Arrays.stream(elements).count();
+        Function<int[], String> sum = elements -> "Sum = " + Arrays.stream(elements).sum();
         int[] numbers = Arrays.stream(scanner.nextLine().split(", ")).mapToInt(Integer::parseInt).toArray();
 
         System.out.println(count.apply(numbers));
