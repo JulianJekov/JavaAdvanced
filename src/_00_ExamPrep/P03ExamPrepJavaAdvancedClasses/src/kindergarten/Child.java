@@ -1,4 +1,4 @@
-package kindergarten;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.kindergarten;
 
 public class Child {
     private String firstName;

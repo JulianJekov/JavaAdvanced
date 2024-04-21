@@ -1,4 +1,4 @@
-package hotel;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.hotel;
 
 import java.util.ArrayList;
 import java.util.List;

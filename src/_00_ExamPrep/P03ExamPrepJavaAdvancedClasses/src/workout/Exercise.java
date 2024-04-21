@@ -1,4 +1,4 @@
-package workout;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.workout;
 
 public class Exercise {
     private String name;

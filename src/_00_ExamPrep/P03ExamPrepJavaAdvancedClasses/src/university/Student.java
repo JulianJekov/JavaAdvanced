@@ -1,4 +1,4 @@
-package university;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.university;
 
 public class Student {
     public String firstName;

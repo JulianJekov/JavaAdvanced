@@ -1,4 +1,4 @@
-package parrots;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.parrots;
 
 public class Parrot {
     private String name;

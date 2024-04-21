@@ -1,4 +1,4 @@
-package dealership;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.dealership;
 
 public class Car {
     public String manufacturer;

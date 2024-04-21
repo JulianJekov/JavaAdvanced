@@ -1,4 +1,4 @@
-package vetClinic;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.vetClinic;
 
 public class Pet {
     private String name;

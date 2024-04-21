@@ -1,4 +1,4 @@
-package magazine;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.magazine;
 
 import java.util.ArrayList;
 import java.util.Comparator;

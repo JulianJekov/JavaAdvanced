@@ -1,4 +1,4 @@
-package magazine;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.magazine;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package shelter;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.shelter;
 
 public class Animal {
     private String name;

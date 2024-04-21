@@ -1,4 +1,4 @@
-package sanctuary;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.sanctuary;
 public class Main {
     public static void main(String[] args) {
         // Initialize the repository

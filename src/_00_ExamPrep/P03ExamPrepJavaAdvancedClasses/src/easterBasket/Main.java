@@ -1,4 +1,6 @@
-package easterBasket;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.easterBasket;
+
+import _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.easterBasket.Basket;
 
 public class Main {
     public static void main(String[] args) {

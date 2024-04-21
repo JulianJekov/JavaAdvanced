@@ -1,4 +1,4 @@
-package softUni;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.softUni;
 
 public class Student {
     private String firstName;

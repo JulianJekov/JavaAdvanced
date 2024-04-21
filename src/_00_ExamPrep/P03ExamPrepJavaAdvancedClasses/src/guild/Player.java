@@ -1,4 +1,4 @@
-package guild;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.guild;
 
 public class Player {
     private String name;

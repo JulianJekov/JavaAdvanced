@@ -1,4 +1,4 @@
-package sanctuary;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.sanctuary;
 
 public class Elephant {
     private String name;

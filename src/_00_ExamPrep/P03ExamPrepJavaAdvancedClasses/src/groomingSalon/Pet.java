@@ -1,4 +1,4 @@
-package groomingSalon;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.groomingSalon;
 
 public class Pet {
     private String name;

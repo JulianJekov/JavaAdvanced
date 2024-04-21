@@ -1,4 +1,4 @@
-package cafe;
+package _00_ExamPrep.P03ExamPrepJavaAdvancedClasses.src.cafe;
 
 public class Main {
 
