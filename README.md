@@ -32,3 +32,5 @@ By the end of this course, you’ll be able to:
 - Solve complex algorithmic challenges
 - Work effectively with streams, files, and directories in Java
 - Implement and manipulate linked lists and doubly linked lists
+![Java Advanced - May 2023 - Certificate](https://github.com/user-attachments/assets/ca31b8db-a4c5-47dc-94be-7ba5c10a044a)
+
